@@ -1,0 +1,49 @@
+/* Archivo de estilos CSS para Seguridad en Línea */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    padding: 1em; /* Relleno del encabezado */
+    text-align: center; /* Alineación del texto en el centro */
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar el relleno de la lista */
+}
+
+nav ul li {
+    display: inline; /* Mostrar los elementos en línea */
+    margin: 0 10px; /* Margen entre los elementos */
+}
+
+nav ul li a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+}
+
+main {
+    padding: 20px; /* Relleno del contenido principal */
+}
+
+footer {
+    background-color: #4CAF50; /* Color de fondo del pie de página */
+    color: white; /* Color del texto del pie de página */
+    text-align: center; /* Alineación del texto en el centro */
+    padding: 10px 0; /* Relleno del pie de página */
+    position: fixed; /* Fijar el pie de página en la parte inferior */
+    width: 100%; /* Ancho completo del pie de página */
+    bottom: 0; /* Posición en la parte inferior */
+}
+
+section img {
+    max-width: 100%; /* Ancho máximo de la imagen al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+}
